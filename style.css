@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  font-family: "Outfit", serif;
+  background-color: #121826;
+  background-image: url("./resources/Background_image@2x.png");
+  color: #e5e7eb;
+}
+
+header {
+  text-align: center;
+  margin: auto;
+  max-width: 450px;
+  color: #e5e7eb;
+}
+header div h1 {
+  font-size: 2.5rem;
+}
+header div p {
+  font-size: 1rem;
+}
+
+.container {
+  margin: auto;
+  max-width: 1000px;
+  margin-block-start: 40px;
+}
+
+.cards {
+  display: flex;
+  gap: 40px;
+}
+
+.emg {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  background-color: #fceed8;
+  position: relative;
+}
+
+.emg span {
+  position: absolute;
+  top: 14%;
+  left: 14%;
+  font-size: 25px;
+}
+
+.emg2 {
+  background-color: #dee9fc;
+}
+
+.emg3 {
+  background-color: #fbe5e6;
+  /* background-color: #DEE9FC; */
+}
+
+.card {
+  padding: 20px;
+  background-color: #212936;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.card .text {
+  max-width: 400px;
+  padding-top: 10px;
+}
+
+.card .text .p_bold {
+  font-size: 20px;
+  /* padding: 10px; */
+  font-weight: 600;
+}
+
+.card .text p {
+  /* max-width: 400px; */
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 16px;
+  color: #d2d5da;
+}
+
+.card .card_img img {
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+header p {
+  color: #9da3ae;
+  padding-top: 20px;
+}
+
+.author-info {
+  font-size: 14px;
+  text-align: center;
+  margin-top: 16px;
+  color: rgb(55, 65, 81);
+}
+
+.author-info a {
+  text-decoration: none;
+}
+
+@media (max-width: 640px) {
+  header {
+    max-width: 500px;
+  }
+
+  .container {
+    margin: auto;
+    max-width: 300px;
+    margin-block-start: 40px;
+  }
+
+  .cards {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+  }
+}
